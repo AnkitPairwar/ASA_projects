@@ -1,31 +1,73 @@
- *{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-header{
+ *{ margin: 0;
+	padding: 0;
+    font-family: raleway ;
     
-background-position: top;
+   
 }
 
-ul{
+header{
+    font-display: none;  
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bg1.jpg);
+    height: 150vh;
+    background-size: cover ;  
+    font-size: 24px;
+}
+
+ul{ 
     float: right;
     list-style-type: none;
+    margin-top: 1rem;
+    margin-right: 1rem;
 }
 
 ul li{
     display: inline-block; 
     
-
 }
+
 ul li a{
 	text-decoration: none;
-	color: #fff;
+	color: #ffffff;
 	padding: 4px 15px;
 	border: 1px solid transparent;
     transition: 0.4s ease;
+    padding: 4px 15px;
 }
 
 ul li a:hover{
-    background-color: #fff;
+    background-color:#ffffff;
 	color: #000;
+}
+
+footer{
+    background-color: #000;
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.leg{
+display: grid;
+grid-auto-rows: repeat(2 1fr);   
+grid-gap: 2em;  
+}
+
+/*get them centrally inligned  */
+.leg_a{
+    color: #ffffff;
+    transition: 0.4s ease;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 1em;
+}
+
+.leg_a:hover{
+    background-color: #000;
+    color: #ffffff;
+}
+
+.leg_b{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 1em;
 }
 
