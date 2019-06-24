@@ -87,4 +87,22 @@ ul li a:hover{
 footer{
     background-color: #000;
     color: #ffffff;
+    font-size: 1rem;
+
 }
+.leg{
+    display: grid;
+    grid-template-rows:4fr 2fr; 
+}
+.leg_a{display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+
+
+}
+.leg_b{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+
+}
+
