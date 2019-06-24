@@ -1,91 +1,90 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-}
-.Team-Section{
-    overflow: hidden;
-    text-align: center;
-    background: #34495e;
-    padding: 60px;
-}
-.Team-Section h1{
-    text-transform: uppercase;
-    margin-bottom: 60px;
-    color: white;
-    font-size: 40px;  
-}
-.border{
-    display: block;
-    margin: auto;
-    width: 160px;
-    height: 3px;
-    background:#3498db;
-    margin-bottom: 40px;
-}
-.ps{
-    margin-bottom:  40px;
-}
-.ps a{
-    display: inline-block;
-    margin: 0 30px;
-    width: 160px;
-    height: 160pX;
-    overflow: hidden;
-    border-radius: 50%;
-}   
-.ps a img{
-    width: 100%;
-    filter: grayscale(100%);
-    transition: 0.4s all; 
-}
-.ps a:hover > img{
-    filter: none;
-}
-.section{
-    width: 600;
-    margin: auto;
-    font-size: 20px;
-    text-align: justify;
-    height: 0;
-    overflow: hidden;
+*{ margin: 0;
+	padding: 0;
+    font-family: raleway ;
+
 
 }
-.section:target{
-    height: auto;
+
+header{
+    font-display: none;  
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bg1.jpg);
+    height: 150vh;
+    background-size: cover ;  
+    font-size: 24px;
 }
-.name{
-    display: block;
-    margin-bottom: 30px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 22px;
+ul{ 
+    float: right;
+    list-style-type: none;
+    margin-top: 1rem;
+    margin-right: 1rem;
 }
-body{
-    margin: 0;
-    padding: 0;
-    background: #34495e;
+ul li{
+    display: inline-block; 
+    
 }
-.container{
-    text-align: left;
-    margin-top: 0;
+ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	padding: 4px 15px;
+	border: 1px solid transparent;
+    transition: 0.4s ease;
+    padding: 4px 15px;
 }
-.btn{
-    border: 1px solid #3498db;
-    background: none;
-    padding: 10px 20px;
+ul li a:hover{
+    background-color:#ffffff;
+	color: #000;
+}
+
+.txt{
+    position: absolute;
+    top:30%;
+    left:5rem;
     font-size: 20px;
-    font-family: "montserrat";
-    cursor: pointer;
-    margin: 10px;
-    transition: 0.8s;
-    position: relative;
-    overflow: hidden;
+    color: #000;
+}
+
+
+.button{
+ position: absolute;
+ transform: translate(-50%,-50%);
+ top: 55%;
+ left:45% ;
+ display: inline-block;
+ display:grid;
+ grid-template-columns: 15% 35% 35% 15%;
+ grid-gap: 5rem;
+ font-size: 35px;
 }
 .btn1{
-    color: #3498db
+
+    border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.4s ease;
 }
 .btn1:hover{
-    color: #fff;
+    background-color: #fff;
+    color: #000;
 }
 
+.btn2{
+
+    border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.4s ease;
+}
+.btn2:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
+footer{
+    background-color: #000;
+    color: #ffffff;
+}
