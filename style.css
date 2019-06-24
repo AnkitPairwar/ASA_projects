@@ -7,7 +7,7 @@
 
 header{
     font-display: none;  
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bg1.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bg2.jpg);
     height: 150vh;
     background-size: cover ;  
     font-size: 24px;
@@ -35,12 +35,59 @@ ul li a:hover{
 	color: #000;
 }
 
+.srchbar{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #2f3640;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+
+}
+
+.search-txt{
+    border: none;
+    outline: none;
+    background: none;
+    float: left;
+    padding: 0;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.4s all;
+    line-height: 40px;
+    width: 0;
+
+}
+
+.search-btn{
+    color: #1abc9c;
+    float: right;
+    text-decoration: none;
+    width: 50px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 45%;
+}
+
+.srchbar:hover .search-txt{
+width: 240px;
+padding: 0 6px;
+
+}
+.srchbar:hover .search-btn{
+background-color: #fff;
+}
+
+
 .txt{
     position: absolute;
     top:30%;
     left:5rem;
     font-size: 20px;
-    color: #000;
+    color: #fff;
 }
 
 
@@ -93,10 +140,11 @@ footer{
 .leg{
     display: grid;
     grid-template-rows:4fr 2fr; 
+    grid-gap: 1rem;
 }
 .leg_a{display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-
+    text-emphasis-color: #ffffff;
 
 }
 .leg_b{
