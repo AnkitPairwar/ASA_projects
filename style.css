@@ -7,11 +7,14 @@
 
 header{
     font-display: none;  
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bg2.jpg);
-    height: 150vh;
-    background-size: cover ;  
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(himage.jpg);
+   
+    background-size: cover ;
     font-size: 24px;
+    background-attachment: fixed;
+    height: 170vh;
 }
+
 ul{ 
     float: right;
     list-style-type: none;
@@ -128,7 +131,15 @@ background-color: #fff;
     color: #000;
 }
 
-
+.pimg{
+    background-image: url(/blur.jpg);
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-height:200px; 
+}
 
 
 footer{
