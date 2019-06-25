@@ -4,15 +4,66 @@
 
 
 }
-
 header{
-    font-display: none;  
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(himage.jpg);
+
+    max-height: 200vh;
+}
+
+
+.main, .pimg{ 
    
+    position: relative;
     background-size: cover ;
-    font-size: 24px;
+    background-position: center;
+    opacity:0.85;
     background-attachment: fixed;
-    height: 170vh;
+    background-repeat: no-repeat;
+   
+    
+}
+
+.main{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(himage.jpg);
+    font-display: none;  
+    font-size: 24px;
+    min-height: 150vh;
+  
+}
+
+.pimg{ 
+    background-image: url(/blur.jpg);
+   min-height:400px;
+ }
+
+.txt2{
+    text-align: center;
+    padding: 50px 80px;
+    background-color: #000;
+    color: #ddd;
+}
+/*
+.pimg{
+    background-image: url(/blur.jpg);
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-height:200px; 
+}*/
+
+
+
+
+.pimg .ptext{
+    position:absolute;
+
+  width:100%;
+  text-align:center;
+  color:#ddd;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
 }
 
 ul{ 
@@ -131,15 +182,7 @@ background-color: #fff;
     color: #000;
 }
 
-.pimg{
-    background-image: url(/blur.jpg);
-    opacity: 0.7;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    max-height:200px; 
-}
+
 
 
 footer{
