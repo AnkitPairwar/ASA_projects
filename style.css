@@ -4,11 +4,11 @@
 
 
 }
+
 header{
 
-    max-height: 200vh;
+    max-height: 100vh;
 }
-
 
 .main, .pimg{ 
    
@@ -30,9 +30,9 @@ header{
   
 }
 
-.pimg{ 
+.pimg{
     background-image: url(/blur.jpg);
-   min-height:400px;
+    min-height:300px;
  }
 
 .txt2{
@@ -186,6 +186,7 @@ background-color: #fff;
 
 
 footer{
+    
     background-color: #000;
     color: #ffffff;
     font-size: 1rem;
